@@ -7,11 +7,11 @@ import shapePattern from 'assets/shape-pattern2.png';
 
 const data = {
   subTitle: 'Core features',
-  title: 'Smart Jackpots that you may love this anytime & anywhere',
+  title: 'Beautiful and powerful systems that make the best of your company',
   description:
-    'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.',
+    'Schedule your quote, to provide you with the best services and improve your company.',
   btnName: 'Get Started',
-  btnURL: '#',
+  btnURL: '',
 };
 
 export default function CoreFeature() {
