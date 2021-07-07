@@ -27,10 +27,19 @@ export default function Header({ className }) {
             </Link>
           ))}
         </Flex>
-        <Button className="donate__btn" variant="secondary" arial-label="Get Started">
-              Let's Evolve 
+        <Button
+          onClick={(e) => {
+            window.location = 'mailto:carlos@touchof.tech;emilio@touchof.tech?subject=Let evolve together';
+            e.preventDefault();
+        }}
+          className="donate__btn"
+          variant="secondary"
+          arial-label="Get Started"
+        >
+         Lets Evolve 
         </Button>
-        <MobileDrawer/>
+
+        <MobileDrawer />
       </Container>
     </header>
   );

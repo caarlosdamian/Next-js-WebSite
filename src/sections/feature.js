@@ -24,7 +24,7 @@ const data = [
     altText: "Pro Subscription",
     title: "Pro Subscription",
     text:
-      "We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.",
+      "We handle different maintenance subscriptions once the product is delivered to have continuous improvements.",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const data = [
     altText: "Partnership deal",
     title: "Partnership deal",
     text:
-      "Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.",
+      "We provide a detailed quote depending on the requirements of the system in this way to provide a totally personalized process.",
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const data = [
     altText: "Customer Support",
     title: "Customer Support",
     text:
-      "We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.",
+      "Our customer service process is personalized since we have contacts throughout the construction path of the system there will always be someone available to solve all the doubts.",
   },
 ];
 

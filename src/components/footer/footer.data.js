@@ -4,20 +4,9 @@ export default {
       path: '/',
       label: 'Home',
     },
+ 
     {
-      path: '/',
-      label: 'Adversite',
-    },
-    {
-      path: '/',
-      label: 'Supports',
-    },
-    {
-      path: '/',
-      label: 'Marketing',
-    },
-    {
-      path: '/',
+      path: 'mailto:carlos@touchof.tech;emilio@touchof.tech?subject=Let evolve together',
       label: 'Contact',
     },
   ],

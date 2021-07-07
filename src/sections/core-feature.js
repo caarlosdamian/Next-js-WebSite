@@ -10,8 +10,8 @@ const data = {
   title: 'Beautiful and powerful systems that make the best of your company',
   description:
     'Schedule your quote, to provide you with the best services and improve your company.',
-  btnName: 'Get Started',
-  btnURL: '',
+  btnName: 'Get Started ',
+  btnURL: 'mailto:carlos@touchof.tech;emilio@touchof.tech?subject=Let evolve together ',
 };
 
 export default function CoreFeature() {

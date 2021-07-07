@@ -55,15 +55,6 @@ export default function ServiceSection() {
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
           <Image src={ServiceThumb} alt="Thumbnail" />
-          {/* <Button
-            sx={styles.videoBtn}
-            onClick={handleClick}
-            arial-label="Play Button"
-          >
-            <span>
-              <IoIosPlay />
-            </span>
-          </Button> */}
           <Box sx={styles.shapeBox}>
             <Image src={shapePattern} alt="shape" />
           </Box>

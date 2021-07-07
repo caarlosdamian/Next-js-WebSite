@@ -5,52 +5,54 @@ import Rating from "components/rating";
 import ButtonGroup from "components/button-group";
 import Carousel from "react-multi-carousel";
 
-import Avatar1 from "assets/testimonial/avatar1.png";
+import Avatar1 from "assets/testimonial/avatar1.jpg";
 import Avatar2 from "assets/testimonial/avatar2.png";
 import Avatar3 from "assets/testimonial/avatar3.png";
-import Avatar4 from "assets/testimonial/avatar4.png";
+import Avatar4 from "assets/testimonial/avatar4.jpg";
 
 const data = [
   {
     id: 1,
-    title: "Modern look & trending design",
+    title: "The organization in my company has improved",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
-    avatar: Avatar1,
-    name: "Mariana Trujillo",
-    designation: "@denny.hil",
-    review: 4,
+      "The system brings out the best in my company, it is as I requested and with the correct specifications, I would work with this team again.",
+    avatar: Avatar3,
+    name: "Abel Aguirre",
+    designation: "AbelAguirre",
+    review: 5,
   },
   {
     id: 2,
     title: "Design Quality & performance",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+      "I loved working with this exceptional team totally sure that in the future I will work with them, the system totally met my expectations.",
     avatar: Avatar2,
-    name: "Laura Pilates",
-    designation: "@denny.hil",
-    review: 5,
+    name: "Laura Verdugo",
+    designation: "@laurapilates",
+    review: 4.5,
   },
   {
     id: 3,
-    title: "Layout and organized layers",
+    title: "Extraordinary functionality",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
-    avatar: Avatar3,
-    name: "Buffet abogados",
-    designation: "@denny.hil",
+      "The system meets all the requirements I asked for, is ideal for my business, ready to be used without so many tangles unlike other systems I had.",
+    avatar: Avatar4,
+    name: "Ximena Magallon",
+    designation: "@xtm31",
     review: 5,
   },
   {
     id: 4,
-    title: "Modern look & trending design",
+    title: "The best team I've ever worked with",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
-    avatar: Avatar4,
-    name: "Denny Hilguston",
-    designation: "@denny.hil",
+      "The treatment was excellent I really liked the final product there was never a lack of communication, they helped me in every process.",
+    avatar: Avatar1,
+    name: "Mariana Trujillo",
+    designation: "@MarianaTruma",
     review: 4,
+    
   },
+  
 ];
 
 const responsive = {
@@ -108,7 +110,7 @@ export default function TestimonialCard() {
       <Box sx={styles.carouselWrapper}>
         <Carousel {...carouselParams}>
           {data.map((item) => (
-            <Box sx={styles.reviewCard} key={item.sliderClass}>
+            <Box sx={styles.reviewCard} key={item.id}>
               <Rating rating={item.review} />
               <Heading as="h3" sx={styles.title}>
                 {item.title}

@@ -14,14 +14,22 @@ export default function Banner() {
             Let's evolve together
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Check out to find great software products 
-            If you need a website or a web application this is a place to go!
+            Check out to find great software products If you need a website or a
+            web application this is a place to go!
           </Text>
-          <Button variant="primary">Explore</Button>
-        
+          <Button
+            variant="primary"
+            onClick={(e) => {
+              window.location =
+                "mailto:carlos@touchof.tech;emilio@touchof.tech?subject=Let evolve together";
+              e.preventDefault();
+            }}
+          >
+            Get Started
+          </Button>
         </Box>
         <Box sx={styles.banner.imageBox}>
-        <Image src={BannerImg} alt='banner'></Image>
+          <Image src={BannerImg} alt="banner"></Image>
         </Box>
       </Container>
     </section>
